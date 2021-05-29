@@ -1,3 +1,15 @@
 .bold {
     font-weight: bold;
 }
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    overflow-x: auto;
+    overflow-y: auto;
+    width: 80%;
+    text-align: center;
+  }
