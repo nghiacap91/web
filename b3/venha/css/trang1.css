@@ -1,0 +1,62 @@
+* {
+    width: 85%;
+    background-color: ghostwhite;
+    color: brown;
+}
+
+.bi {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.i {
+    font-style: italic;
+}
+
+div {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:link, a:visited {
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: blue;
+    text-align: center;
+    color: ivory;
+}
+
+a:hover, a:active {
+    background-color: red;
+}
+ a.a {
+     padding: initial;
+     display: initial;
+     background-color: initial;
+     text-align: initial;
+     color: red;
+ }
+
+ ol.a {
+     list-style-type: upper-roman;
+ }
+
+ ol.b {
+     list-style-type: upper-alpha;
+ }
+
+ .blue {
+     color: blue;
+ }
+
+ .red {
+     color: red;
+ }
+
+ .green {
+     color: green;
+ }

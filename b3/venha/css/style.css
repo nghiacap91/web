@@ -1,3 +1,5 @@
+
+
 .bold {
     font-weight: bold;
 }
@@ -12,4 +14,21 @@ table {
     overflow-y: auto;
     width: 80%;
     text-align: center;
+}
+
+a:link, a:visited {
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: green;
+    text-align: center;
+    color: ivory;
+}
+
+a:hover, a:active {
+    background-color: red;
+}
+
+ul {
+    list-style-type: none;
 }
