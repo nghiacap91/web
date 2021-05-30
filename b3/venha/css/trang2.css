@@ -1,0 +1,49 @@
+* {
+    text-indent: 20px;
+    width: 85%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: ghostwhite;
+}
+
+a:link, a:visited {
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: yellow;
+    text-align: center;
+    color: violet;
+}
+
+a:hover, a:active {
+    background-color: turquoise;
+}
+
+a.a {
+    padding: initial;
+    display: initial;
+    background-color: initial;
+    text-align: initial;
+    color: red;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.small {
+    font-size: 10px;
+}
+
+div {
+    text-align: center;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+}
