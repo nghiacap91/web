@@ -1,0 +1,33 @@
+.box {
+    box-sizing: border-box;
+
+    background-color: orange;
+    direction: rtl;
+
+    /* content box */
+    width: 200px;
+    height: 200px;
+
+    /* padding */
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+
+    /* thuộc tính viết tắt */
+    /* padding: top right bottom left */
+
+    /* border */
+    border: dotted 1px red;
+    border-radius: 50%;
+
+    /* margin */
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* shadow */
+    box-shadow: -5px -10px 15px blue;
+
+    overflow: hidden;
+}
