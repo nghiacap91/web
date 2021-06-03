@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.j-space-between {
+    justify-content: space-between;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.header {
+    text-align: center;
+    background-color: azure;
+    padding: 10px;
+}
+
+.nav {
+    background-color: aquamarine;
+}
+
+.menu-list {
+    list-style: none;
+}
+
+.menu-list .menu-item {
+    padding: 10px 0px 10px 0px;
+    margin-right: 20px;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.active {
+    color: red;
+}
+
+.main {
+    width: 75%;
+    background-color: rgb(195, 195, 214);
+}
+
+.aside {
+    width: 25%;
+    text-align: center;
+    background-color: #4de0f0;
+}
+
+.product-img {
+    width: calc(740px/3);
+}
+
+.h2 {
+    padding: 10px 0 0 0;
+    text-align: center;
+    color: blue;
+}
+
+.footer {
+    background-color: indianred;
+    text-align: center;
+    padding: 10px;
+}
+
+.special {
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.info {
+    margin: 20px 0 0 20px;
+}
+
+.ibold {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.main2 {
+    background-color: rgb(195, 195, 214);
+}
