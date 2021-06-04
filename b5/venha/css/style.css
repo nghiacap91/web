@@ -25,6 +25,10 @@
     justify-content: center;
 }
 
+.a-center {
+    align-items: center;
+}
+
 .header {
     text-align: center;
     background-color: azure;
@@ -32,7 +36,7 @@
 }
 
 .nav {
-    background-color: aquamarine;
+    background-color: #666666;
 }
 
 .menu-list {
@@ -46,33 +50,36 @@
 
 .link {
     text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.active {
-    color: red;
+    color: white;
 }
 
 .main {
     width: 75%;
-    background-color: rgb(195, 195, 214);
 }
 
 .aside {
     width: 25%;
-    text-align: center;
-    background-color: #4de0f0;
 }
 
-.product-img {
-    width: calc(740px/3);
+.logo {
+    height: 68px;
+}
+
+.post {
+    border: 1px solid #c29c4a;
+    padding: 0 1.5rem 0 1.5rem;
+    border-radius: 1.25rem;
+    overflow: visible;
+}
+
+.tu-truyen {
+    border: solid 1px black;
+    border-radius: 5px;
 }
 
 .h2 {
-    padding: 10px 0 0 0;
-    text-align: center;
-    color: blue;
+    text-transform: capitalize;
+    font-size: .9375rem;
 }
 
 .footer {
@@ -96,6 +103,61 @@
     font-weight: bold;
 }
 
-.main2 {
-    background-color: rgb(195, 195, 214);
+.product {
+    width: 49%;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.nowrap {
+    flex-wrap: nowrap;
+}
+
+.link2 {
+    text-decoration: none;
+    color: black;
+}
+
+.flex.nowrap {
+    margin: 10px 0 10px 0;
+}
+
+.b-black {
+    padding: 5px;
+    border: black 1px solid;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.b-red {
+    padding: 5px;
+    color: red;
+    border: red 1px solid;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.b-tan {
+    padding: 5px;
+    color: tan;
+    border: tan 1px solid;
+    border-radius: 20px;
+}
+
+table {
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 5px;
+}
+
+.back-red {
+    color: white;
+    background-color: red;
+    padding: 5px;
+    border-radius: 20px;
+    margin-right: 10px;
 }
