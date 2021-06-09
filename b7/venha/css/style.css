@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif;
+}
+
+.container {
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1999px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.black {
+    color: #0f1568;
+}
+
+.gray {
+    color: #a6a6a7;
+}
+
+.fixed01 {
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+
+.ul01 {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+    line-height: 25px;
+    text-transform: uppercase;
+    background-color: #f7f7f7;
+}
+
+.li01 {
+    margin-left: 20px;
+}
+
+.a01:hover {
+    color: orange;
+}
+
+.logo-bar {
+    width: 1080px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.logo, .cart {
+    height: 40px;
+}
+
+.enfamilk-img {
+    height: 45px;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search {
+    display: block;
+    border: 0;
+    background-color: #eff0f5;
+    width: 540px;
+    height: 45px;
+    text-indent: 20px;
+}
+
+.search-btn {
+    display: block;
+    width: 45px;
+    height: 45px;
+    background-color: #f57224;
+    border: none;
+}
+
+.search-img {
+    width: 50%;
+}
+
+.nav-menu {
+    margin-top: 120px;
+}
+
+ul.menu {
+    border: 1px solid #f7f7f7;
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.menu-link {
+    width: 190px;
+    display: block;
+    padding: 5px;
+    font-size: 13px;
+    line-height: 27px;
+    text-transform: capitalize;
+    white-space: nowrap;
+}
+
+.menu-link:hover {
+    color: #f57224;
+    background-color: #eff0f5;
+}
+
+ul.menu2 {
+    width: 240px;
+    border: 1px solid #f7f7f7;
+    height: 444px;
+    display: none;
+    position: absolute;
+    left: 190px;
+    top: 0;
+}
+
+.menu-link2 {
+    display: block;
+    padding: 5px;
+    font-size: 13px;
+    line-height: 27px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.menu-link2:hover {
+    color: #f57224;
+    background-color: #eff0f5; 
+}
+
+.menu-item:hover > .menu-link {
+    color: #f57224;
+    background-color: #eff0f5;
+}
+
+.menu-item:hover > .menu2 {
+    display: block;
+}
+
+ul.menu3 {
+    border: 1px solid #f7f7f7;
+    height: 444px;
+    display: none;
+    position: absolute;
+    left: 240px;
+    top: 0;
+}
+
+.menu-link3 {
+    display: block;
+    padding: 5px;
+    font-size: 13px;
+    line-height: 27px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.menu-link3:hover {
+    color: #f57224;
+    background-color: #eff0f5; 
+}
+
+.menu-item2:hover > .menu-link2 {
+    color: #f57224;
+    background-color: #eff0f5;
+}
+
+.menu-item2:hover > .menu3 {
+    display: block;
+}
