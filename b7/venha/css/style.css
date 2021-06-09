@@ -6,13 +6,13 @@
 
 body {
     font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif;
+    background-color: #f5f5f5;
 }
 
 .container {
     width: 1080px;
     margin-left: auto;
     margin-right: auto;
-    height: 1999px;
 }
 
 ul {
@@ -213,6 +213,7 @@ ul.menu3 {
     text-align: center;
     border: 1px solid #f7f7f7;
     margin-bottom: 2px;
+    background-color: white;
 }
 
 figure:hover {
@@ -224,3 +225,51 @@ figure:hover {
     height: 80px;
 }
 
+
+.product-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 175px;
+    height: 280px;
+    margin-bottom: 2px;
+    background-color: white;
+}
+
+.small {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.line-thr {
+    text-decoration: line-through;
+}
+
+.red {
+    color: red;
+}
+
+.place {
+    align-self: flex-end;
+}
+
+.product-name {
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.product-img {
+    height: 175px;
+}
+
+.product:hover {
+    box-shadow: -1px 1px 10px rgb(207, 193, 193);
+}
