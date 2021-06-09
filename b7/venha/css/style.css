@@ -308,6 +308,7 @@ figure:hover {
     height: 30px;
     width: 150px;
     text-align: center;
+    font-size: 12px;
     border: 1px solid white;
     position: absolute;
     left: 100%;
