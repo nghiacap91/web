@@ -273,3 +273,49 @@ figure:hover {
 .product:hover {
     box-shadow: -1px 1px 10px rgb(207, 193, 193);
 }
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    height: 150px;
+}
+
+.btn-bar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    flex-wrap: wrap;
+    left: 0;
+    bottom: 5%;
+    width: 32px;
+}
+
+.btn {
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+    position: relative;
+}
+
+.btn:hover {
+    background-color: orange;
+}
+
+.btn-sub {
+    display: none;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    border: 1px solid white;
+    position: absolute;
+    left: 100%;
+    bottom: 0;
+}
+
+.btn:hover > .btn-sub {
+    display: block;
+    color: orange;
+    background-color: #eff0f5;
+}
