@@ -1,0 +1,8 @@
+:root {
+    --cornor: linear-gradient(to bottom, red, blue)
+}
+
+div {
+    height: 500px;
+    background-image: var(--cornor);
+}
