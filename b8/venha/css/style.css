@@ -4,7 +4,6 @@
     --red: #ff5353;
     --gray: #888;
     --black: #212529;
-    --gutter: 20px;
 }
 
 * {
@@ -53,10 +52,7 @@ a:hover {
     flex-direction: row;
     width: 100%;
     justify-content: center;
-    align-items: center;
-    margin-left: calc(var(--gutter) / -2);
-    margin-right: calc(var(--gutter) / -2);
-    margin-bottom: var(--gutter);
+    margin-bottom: 10px;
 }
 
 .col1 {
@@ -127,11 +123,6 @@ a:hover {
     display: flex;
     flex-direction: column;
     flex-basis: 90.66667%;
-}
-
-[class*="col-"] {
-    padding-left: calc(var(--gutter) / 2);
-    padding-right: calc(var(--gutter) / 2);
 }
 
 .j-start {
@@ -512,7 +503,7 @@ h1 {
 
 .app-btn:hover .app-store {
     background-color: var(--red);
-    color: black;
+    color: var(--black);
 }
 
 .app-btn {
