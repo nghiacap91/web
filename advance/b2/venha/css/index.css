@@ -1,0 +1,104 @@
+.gx-10 {
+    --bs-gutter-x: 10px;
+}
+
+.gy-10 {
+    --bs-gutter-y: 10px;
+}
+
+header {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+.text-center {
+    text-align: center;
+}
+
+.logo {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.logo:hover {
+    color: black;
+}
+
+.search {
+    border-radius: 20px;
+    width: 100%;
+}
+
+.search-form {
+    position: relative;
+}
+
+.ti-search {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+
+.menubtn, .closebtn, .dropdownbtn {
+    border: none;
+    background-color: white;
+}
+
+.sidenav {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    background-color: white;
+    border-left: rgb(224, 206, 206) 1px solid;
+    line-height: 40px;
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-left: 50px;
+}
+
+.sidenav a {
+    text-decoration: none;
+    color: black;
+}
+  
+a.actived, .sidenav a:hover {
+    color: orange;
+    background-color: white;
+}
+
+.portrait {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+  
+.thumbail {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.h1 {
+    padding-bottom: 50px;
+}
+
+@media screen and (min-width: 1200px) {
+    .information {
+        padding-top: 3%;
+    }
+}
