@@ -1,0 +1,276 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.col-1 {
+  flex-basis: 8.33333%;
+}
+
+.col-2 {
+  flex-basis: 16.66666%;
+}
+
+.col-3 {
+  flex-basis: 25%;
+}
+
+.col-4 {
+  flex-basis: 33.33333%;
+}
+
+.col-5 {
+  flex-basis: 41.66666%;
+}
+
+.col-6 {
+  flex-basis: 50%;
+}
+
+.col-7 {
+  flex-basis: 58.33333%;
+}
+
+.col-8 {
+  flex-basis: 66.66666%;
+}
+
+.col-9 {
+  flex-basis: 75%;
+}
+
+.col-10 {
+  flex-basis: 83.33333%;
+}
+
+.col-11 {
+  flex-basis: 91.66666%;
+}
+
+.col-12 {
+  flex-basis: 100%;
+}
+
+.container {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+a.top {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.head {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.search {
+  width: 80%;
+  height: 38px;
+  border-radius: 20px;
+}
+
+.menu,
+.closebtn {
+  border: 1px solid white;
+  background-color: white;
+  font-size: 30px;
+}
+
+.sidenav a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  padding: 8px 8px 8px 22px;
+}
+
+a.actived,
+.sidenav a:hover {
+  color: orange;
+}
+
+.sidenav {
+    display: flex;
+    flex-direction: column;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  background-color: white;
+  border-left: rgb(224, 206, 206) 1px solid;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.show {display: block;}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+.dropdownbtn {
+  position: absolute;
+  right: 30px;
+  top: 100px;
+  border: none;
+  background-color: white;
+}
+
+.h1 {
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.portrait {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.thumbail {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.information {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.dot, .dot2 {
+  cursor: pointer;
+  height: 7px;
+  width: 7px;
+  margin: 0 2px;
+  background-color: gray;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover, .dot2:hover {
+  background-color: orange;
+}
+
+.slides {
+  flex-wrap: nowrap;
+}
+
+.item {
+  padding-left: 25px;
+  padding-right: 25px;
+  
+  margin-top: 50px;
+}
+
+.product {
+  margin-left: -25px;
+  margin-right: -25px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.extra.row, .sport .row, .business .row {
+  flex-wrap: nowrap;
+}
+
+.extra.row {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.sport .row, .business .row {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.contact {
+  background-color: #f8f9fa;
+  height: 200px;
+}
+
+.contact .container {
+  padding-top: 50px;
+}
+
+.email {
+  width: 90%;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.subscribe {
+  width: 80%;
+  height: 50px;
+  border: none;
+  background-color: orange;
+  color: white;
+  font-weight: bolder;
+  border-radius: 25px;
+}
+
+.subscribe:hover {
+  color: orange;
+  background-color: white;
+  box-shadow: rgb(173, 167, 167) 0 2px 5px;
+}
+
+.ending {
+  margin-top: 50px;
+  text-align: center;
+  height: 200px;
+  line-height: 50px;
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  background-color: rgb(204, 201, 201);
+  border-radius: 3px;
+  border: none;
+}
+
+.icon:hover {
+  background-color: orange;
+  color: white;
+}
+
+.ti-heart {
+  color: red;
+}
