@@ -62,7 +62,8 @@ header {
     padding-top: 60px;
     background-color: white;
     border-left: rgb(224, 206, 206) 1px solid;
-    line-height: 40px;
+    line-height: 20px;
+    font-size: 10px;
 }
 
 .closebtn {
@@ -93,8 +94,20 @@ a.actived, .sidenav a:hover {
     border-radius: 5px;
 }
 
-.h1 {
-    padding-bottom: 50px;
+.production {
+    font-size: 14px;
+}
+
+.carousel-control-next {
+    color: black;
+    background-color: black;
+}
+
+@media screen and (min-width: 768px) {
+    .sidenav {
+        font-size: 20px;
+        line-height: 40px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
