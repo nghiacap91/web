@@ -339,7 +339,7 @@ body {
 
 .feauture {
     margin-top: 50px;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../img/feauturebackground@1.25x.png);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../img/feauturebackground@1.25x.jpg);
     position: relative;
 }
 
@@ -668,7 +668,7 @@ body {
 
 .people {
     margin-top: 130px;
-    background-image: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/peoplebackground@1.25x.png);
+    background-image: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/peoplebackground@1.25x.jpg);
     max-width: 100%;
 }
 
@@ -733,7 +733,7 @@ body {
 
 .map {
     margin-top: 110px;
-    background-image: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/map@1.25x.png);
+    background-image: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/map@1.25x.jpg);
     width: 100%;
 }
 
@@ -745,7 +745,30 @@ body {
     color: #f38181;
 }
 
+.footer {
+    margin-top: 75px;
+}
 
+.input-group {
+    padding-top: 20px;
+}
+
+.footerbtn {
+    background-color: rgb(149, 225, 211);
+    border: none;
+    color: #ffffff;
+    width: 40%;
+}
+
+.f-blog-img {
+    width: 100%;
+}
+
+.f-insta {
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
 
 @media screen and (max-width: 989px) {
     .about .container .d-flex {
