@@ -1,0 +1,212 @@
+:root {
+    --bs-font-sans-serif: 'Lato',system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.banner {
+    background-image: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%), url(../img/banner-bground.jpg);
+    height: 780px;
+}
+
+.navbar {
+    margin-top: 50px;
+    padding: 0;
+}
+
+.dropdown {
+    background: none;
+    width: 96px;
+}
+
+.btn {
+    padding: 0;
+    color: #ffffff;
+}
+
+.btn:focus, .btn:active {
+    box-shadow: none;
+}
+
+.dropdown-menu {
+    background: none;
+    border: none;
+    color: #ffffff;
+}
+
+.dropdown-menu li {
+    margin-bottom: 5px;
+}
+
+.login-btn {
+    width: 100px;
+    height: 40px;
+    background: none;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    border-radius: 6px;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    font-weight: 400;
+}
+
+.title {
+    margin-top: 165px;
+    font-size: 72px;
+    line-height: 1.2;
+    color: #ffffff;
+}
+
+.title-text {
+    margin-top: 40px;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #ffffff;
+    max-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.signup {
+    margin-top: 85px;
+    width: 160px;
+    height: 50px;
+    border-radius: 6px;
+    border: none;
+    color: rgb(238, 61, 27);
+}
+
+.video {
+    margin-top: 95px;
+}
+
+.left-text {
+    max-width: 445px;
+    margin: auto;
+}
+
+.heading {
+    padding-top: 45px;
+    font-size: 36px;
+    line-height: 1.2;
+}
+
+.video-text, .app-text, .contact-text {
+    padding-top: 35px;
+    text-align: justify;
+}
+
+.more {
+    color: rgb(238, 61, 27);
+}
+
+.video-img {
+    position: relative;
+    width: 445px;
+}
+
+.play-btn {
+    left: 15%;
+}
+
+.overview {
+    margin-top: 55px;
+    background-color: #fafafa;
+}
+
+.overview .container {
+    margin-top: 70px;
+    padding-bottom: 200px;
+}
+
+.feature1 {
+    position: relative;
+    height: 250px;
+    margin: 60px 0;
+}
+
+.over-text {
+    width: 293px;
+    height: 198px;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; 
+}
+
+.feat {
+    max-width: 253px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.h5 {
+    padding-top: 35px;
+}
+
+.app-download {
+    background-color: #ED4C5C;
+    color: #ffffff;
+}
+
+.app-download .container {
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
+
+img.d-block.w-100 {
+    max-width: 445px;
+}
+
+.contact .container {
+    margin-top: 115px;
+    padding-bottom: 70px;
+}
+
+.firstname, .lastname, .phone, .form-select {
+    width: 100%;
+    height: 60px;
+    text-indent: 1pc;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 1.2;
+    border: 1px solid #333333;
+}
+
+.firstname:focus, .firstname:active, .lastname:focus, .lastname:active, .phone:focus, .phone:active {
+    box-shadow: none;
+}
+
+.submit-btn {
+    width: 160px;
+    height: 50px;
+    background-color: #ED4C5C;
+    border-radius: 6px;
+    border: none;
+    color: #ffffff;
+}
+
+.footer {
+    background-color: #fafafa;
+}
+
+.footer .h5 {
+    margin-top: 50px;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.address-text, .services-text, .social-text {
+    font-size: 12px;
+    line-height: 1.2;
+}
+
+.address-text.copyright {
+    margin-top: 140px;
+}
