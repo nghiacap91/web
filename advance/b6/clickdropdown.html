@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click dropdown</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+        }
+        .dropdown-content ul {
+            list-style: none;
+            padding: 0;
+        }
+        .dropdown-content a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            color: red;
+        }
+        .dropdownbtn {
+            color: #fff;
+            background-color: blue;
+            margin-top: 50px;
+            padding: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            border: none;
+        }
+        .dropdownbtn:hover {
+            color: blue;
+            background-color: greenyellow;
+        }
+        .dropdown-content {
+            z-index: 1;
+            display: none;
+            position: absolute;
+            text-align: center;
+        }
+        .show {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button class="dropdownbtn" onclick="dropdown()">Click me!</button>
+        <div class="dropdown-content" id="dropdownContent">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Product</a>
+                </li>
+                <li>
+                    <a href="#">Service</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        function dropdown() {
+            document.getElementById("dropdownContent").classList.toggle("show");
+        }
+    </script>
+</body>
+</html>

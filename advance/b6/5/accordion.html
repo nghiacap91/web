@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Accordion</title>
+        <style>
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+
+            .accordions {
+                max-width: 900px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .accordion-header {
+                background-color: indianred;
+                color: #fff;
+                padding: 10px;
+            }
+
+            .accordion-content {
+                display: none;
+            }
+
+            .accordion-content {
+                height: 0;
+                overflow: hidden;
+                transition: height 0.3s;
+            }
+
+            .accordion-item.show .accordion-content {
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="accordions">
+            <div class="accordion-item">
+                <div class="accordion-header">Accordion 1</div>
+
+                <div class="accordion-content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Libero blanditiis molestias ex quod earum, sed accusamus
+                        adipisci corporis in necessitatibus quisquam impedit
+                        nisi deleniti suscipit tempore. Laboriosam, dolorem
+                        labore. Accusamus.
+                    </p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">Accordion 2</div>
+
+                <div class="accordion-content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Libero blanditiis molestias ex quod earum, sed accusamus
+                        adipisci corporis in necessitatibus quisquam impedit
+                        nisi deleniti suscipit tempore. Laboriosam, dolorem
+                        labore. Accusamus.
+                    </p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">Accordion 3</div>
+
+                <div class="accordion-content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Libero blanditiis molestias ex quod earum, sed accusamus
+                        adipisci corporis in necessitatibus quisquam impedit
+                        nisi deleniti suscipit tempore. Laboriosam, dolorem
+                        labore. Accusamus.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            let accordionItems = document.querySelectorAll(".accordion-item");
+            let previousAccordionItem = null;
+
+            accordionItems.forEach(function (accordionItem, index) {
+                let accordionHeader =
+                    accordionItem.querySelector(".accordion-header");
+                let accordionContent =
+                    accordionItem.querySelector(".accordion-content");
+
+                if (index === 0) {
+                    previousAccordionItem = accordionItem;
+                    accordionItem.classList.add("show");
+                    accordionContent.style.height =
+                        accordionContent.scrollHeight + "px";
+                }
+
+                accordionHeader.addEventListener("click", function (ev) {
+                    if (previousAccordionItem) {
+                        previousAccordionItem.classList.remove("show");
+                        previousAccordionItem.querySelector(
+                            ".accordion-content"
+                        ).style.height = "";
+                    }
+
+                    previousAccordionItem = accordionItem;
+                    accordionItem.classList.add("show");
+                    accordionContent.style.height =
+                        accordionContent.scrollHeight + "px";
+                });
+            });
+        </script>
+    </body>
+</html>

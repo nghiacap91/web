@@ -210,3 +210,13 @@ img.d-block.w-100 {
 .address-text.copyright {
     margin-top: 140px;
 }
+
+.tech-img {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 580px) {
+    h1.title {
+        font-size: 50px;
+    }
+}

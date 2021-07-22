@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.accordion {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.panel {
+    width: 50%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* height: 0; */
+    overflow: hidden;
+    background-color: red;
+    display: none;
+}
