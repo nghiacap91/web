@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 500px;
+    max-height: 100vh;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+.day {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.calendar {
+    position: relative;
+    height: 99px;
+}
+
+.calendar .bi.bi-calendar3 {
+    position: absolute;
+    right: 0;
+    top: 25%;
+}
+
+hr {
+    margin-top: 0;
+}
+
+.inputField .d-flex .add-btn {
+    max-height: 20px;
+    border: none;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+ul {
+    list-style: none;
+    padding-left: 5px;
+}
+
+ul li {
+    display: flex;
+    border-bottom: 1px solid #ECECEC;
+}
+
+ul li .bi.bi-circle {
+    margin-right: 5px;
+}
+
+ul li .bi.bi-trash {
+    margin-left: auto;
+}
+
+.todo-input {
+    width: 450px;
+    border: none;
+    border-bottom: 1px solid #ececec;
+}
+
+.todo-input:focus-visible {
+    outline: none;
+}
+
+.bi.bi-trash-fill {
+    margin-left: auto;
+}
+
+.undo-numb, .done-numb {
+    display: inline-block;
+    text-align: center;
+    width: 22px;
+    height: 22px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}
+
+.bi.bi-trash-fill, .bi.bi-x-circle-fill {
+    cursor: pointer;
+}

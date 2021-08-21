@@ -1,0 +1,54 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Sử dụng Json Sever để tạo API",
+      "completed": false
+    },
+    {
+      "title": "Thực hành Rest API",
+      "completed": false,
+      "id": 2
+    },
+    {
+      "title": "Thay đổi tiêu đề",
+      "completed": true,
+      "id": 3
+    },
+    {
+      "title": "DELETE /todo/id",
+      "completed": true,
+      "id": 4
+    },
+    {
+      "title": "lam btvn",
+      "completed": false,
+      "id": 5
+    },
+    {
+      "title": "\"abc\"",
+      "completed": false,
+      "id": 6
+    },
+    {
+      "title": "\"def\"",
+      "completed": false,
+      "id": 7
+    },
+    {
+      "title": "rfg",
+      "completed": false,
+      "id": 8
+    },
+    {
+      "title": "abc",
+      "completed": false,
+      "id": 9
+    },
+    {
+      "title": "acb",
+      "completed": false,
+      "id": 10
+    }
+  ]
+}
