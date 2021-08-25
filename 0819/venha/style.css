@@ -8,11 +8,15 @@ body {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
+    background-color: #16384c;
 }
 
 .container {
     max-width: 500px;
-    max-height: 100vh;
+    height: 800px;
+    background-color: #fff;
+    margin-top: 100px;
+    border-radius: 10px;
 }
 
 .header {
@@ -31,7 +35,7 @@ body {
 
 .calendar .bi.bi-calendar3 {
     position: absolute;
-    right: 0;
+    right: 5%;
     top: 25%;
 }
 
@@ -56,8 +60,8 @@ ul li {
     border-bottom: 1px solid #ECECEC;
 }
 
-ul li .bi.bi-circle {
-    margin-right: 5px;
+ul li .bi.bi-circle, ul li .bi.bi-check-circle {
+    margin-right: 10px;
 }
 
 ul li .bi.bi-trash {
