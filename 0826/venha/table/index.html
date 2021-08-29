@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <h1 class="text-center">Students</h1>
+    <div class="container">
+        <table class="student-table table table-bordered">
+            <thead>
+                <th class="id">ID</th>
+                <th>Name</th>
+                <th class="age">Age</th>
+                <th>Email</th>
+            </thead>
+            <tbody class="student-list"></tbody>
+        </table>
+
+        <form class="form-group">
+            <input type="text" placeholder="Id" class="input id">
+            <input type="text" placeholder="Name" class="input name">
+            <input type="text" placeholder="Age" class="input age">
+            <input type="text" placeholder="Email" class="input email">
+            <button class="createStudent" type="button" name="button" onclick="onClickCreateStudent()">Create</button>
+        </form>
+
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
