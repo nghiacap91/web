@@ -5,8 +5,8 @@ function add() {
 
     function addQuestion() {
         let
-            n1 = Math.floor((Math.random() * 10) + 1),
-            n2 = Math.floor((Math.random() * 10) + 1),
+            n1 = Math.floor((Math.random() * 100) + 1),
+            n2 = Math.floor((Math.random() * 100) + 1),
             c = document.createElement("div"), t = document.createElement("p"), buttons = [], e, i,
             answered = false;
 
@@ -60,8 +60,8 @@ function sub() {
 
     function subQuestion() {
         let
-            n1 = Math.floor((Math.random() * 10) + 1),
-            n2 = Math.floor((Math.random() * 10) + 1),
+            n1 = Math.floor((Math.random() * 100) + 1),
+            n2 = Math.floor((Math.random() * 100) + 1),
             c = document.createElement("div"), t = document.createElement("p"), buttons = [], e, i,
             answered = false;
 
@@ -174,7 +174,7 @@ function div() {
 
     function divQuestion() {
         let
-            n1 = Math.floor((Math.random() * 10) + 1),
+            n1 = Math.floor((Math.random() * 100) + 1),
             n2 = Math.floor((Math.random() * 10) + 1),
             c = document.createElement("div"), t = document.createElement("p"), buttons = [], e, i,
             answered = false;
